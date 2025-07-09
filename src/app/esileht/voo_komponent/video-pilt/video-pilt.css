@@ -1,0 +1,10 @@
+.Video_pilt {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.Video_pilt:hover {
+    transform: scale3d(1.07, 1.07, 1.07);
+    /* suurendab pilti kui selle peal on hiir */
+}

@@ -1,0 +1,40 @@
+.nooled {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.arrow-left,
+.arrow-right {
+    width: 1.5em;
+    height: auto;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    align-items: center;
+    pointer-events: auto;
+    z-index: 11;
+    background-color: #203443b2;
+}
+
+.arrow-left {
+    padding: 8rem 1.5rem 8rem 0.25rem;
+    border-radius: 0 50% 50% 0;
+}
+
+.arrow-right {
+    padding: 8rem 0.25rem 8rem 1.5rem;
+    right: 0;
+    display: flex;
+    border-radius: 50% 0 0 50%;
+}
+.arrow-left img,
+.arrow-right img {
+    width: 100%;
+    height: auto;
+}

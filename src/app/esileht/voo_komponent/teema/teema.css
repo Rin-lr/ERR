@@ -1,0 +1,41 @@
+.Teema_pealkiri {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #f1efef;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+.teema_videos {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  scroll-behavior: smooth;
+}
+
+.videod {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+
+  /* spacing between video items */
+  gap: 1vh;
+
+  /* Hide scrollbar (Webkit based browsers) */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+}
+
+.videod::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari */
+}
+
+.voog {
+  position: relative;
+}
