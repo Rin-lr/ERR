@@ -1,7 +1,7 @@
-@import '../../esileht/Voo_komponent/teema/teema.css';
-@import '../../esileht/Voo_komponent/video/video.css';
-@import '../../esileht/Voo_komponent/video-pilt/video-pilt.css';
-@import '../../esileht/Voo_komponent/nooled/nooled.css';
+@import '../../esileht/voo_komponent/teema/teema.css';
+@import '../../esileht/voo_komponent/video/video.css';
+@import '../../esileht/voo_komponent/video-pilt/video-pilt.css';
+@import '../../esileht/voo_komponent/nooled/nooled.css';
 
 body {
   font-family: 'Segoe UI', Roboto, sans-serif;
